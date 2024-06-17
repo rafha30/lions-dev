@@ -1,0 +1,7 @@
+let pintura ={
+    nome :'Abaporu',
+    artista :'tarcila do amaral',
+    signicado :"figura humana sentada numa posiçao pensativa",
+    ano: 1928
+}
+console.log (`Minha pintura favorita é ${pintura.nome}. Feita por ${pintura.artista} em ${pintura.ano}, e sginifica ${pintura.signicado}`)

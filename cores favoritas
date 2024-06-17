@@ -1,0 +1,24 @@
+let coresfavoritas =["preto", "azul","verde"]
+let coresEspeciais =[]
+let cordousuario
+
+console.log('Qual sua cor favorita')
+process.stdin.once('data',function(data){
+    cordousuario = data.toString().trim() 
+    processamento(cordousuario)
+    process.exit()
+}
+
+)
+function processamento(cordousuario){
+    if(coresfavoritas.includes(cordousuario)){
+    console.log('sua cor favorita é uma das favoritas da sala')
+    } else{
+        console.log('a sua cor favorita e diferente,vamso adicionar a lista')
+    }
+    coresEspeciais.push(cordousuario)
+    console.log(`essas sao as cores favoritas da sala :${coresfavoritas}, as cores especial sao $`)
+}
+
+
+
