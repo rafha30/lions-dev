@@ -1,5 +1,5 @@
 var nome = ''
-console.log('escreva seu nome')
+console.log('Escreva Seu Nome')
 
 process.stdin.on('data', function(data) {
     nome = data.toString()
